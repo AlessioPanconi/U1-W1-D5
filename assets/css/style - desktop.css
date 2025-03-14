@@ -1,7 +1,7 @@
 body {
   text-align: center;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #393d41;
@@ -27,13 +27,17 @@ p {
 
 #logo {
   background-color: black;
+  text-align: left;
+  padding-left: 40px;
+  padding-block: 25px;
 }
 #logo img {
-  max-width: 30%;
-  margin: auto;
-  padding-block: 35px;
+  max-width: 15%;
 }
-
+section header {
+  padding: 20vw;
+  margin: 20vw;
+}
 #introduzione {
   background-image: url(../images/banner.jpg);
   background-size: cover;
@@ -44,8 +48,8 @@ p {
 }
 header h1 {
   font-size: 200%;
-  line-height: 1;
-  margin-bottom: 10px;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
 header button {
   background-color: #f04c2f;
@@ -57,11 +61,22 @@ header button {
   padding: 10px;
   width: 130px;
 }
+.box {
+  width: 50%;
+  float: left;
+  background-color: white;
+  text-align: left;
+}
+.boxfigure {
+  width: 50%;
+  float: left;
+  background-color: white;
+  padding-top: 10vw;
+}
 
 #roundimg img {
   border-radius: 50%;
-  max-width: 70%;
-  margin-bottom: 25px;
+  max-width: 50%;
 }
 #redsection h2 {
   line-height: 1.5;
@@ -86,7 +101,11 @@ section span {
   font-size: 70%;
   font-style: normal;
 }
-
+/*#caption {
+  float: left;
+  width: 35%;
+  padding-left: 30px;
+}*/
 #incapsulamento {
   max-width: 90%;
   margin: auto;
@@ -113,6 +132,7 @@ section span {
 footer {
   background-color: #25a2c3;
   color: white;
+  display: block;
 }
 footer h2 {
   color: white;
