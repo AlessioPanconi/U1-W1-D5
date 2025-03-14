@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  width: 100%;
+  font: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #393d41;
+  line-height: 1.65;
+}
+h1,
+h2,
+h3 {
+  color: #25a2c3;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  /*padding-top: 30px;*/
+}
+
+#spazziatore {
+  padding-block: 35px;
+}
+
+p {
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+#logo {
+  background-color: black;
+}
+#logo img {
+  max-width: 30%;
+  margin: auto;
+  padding-block: 35px;
+}
+
+#introduzione {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  max-width: 100%;
+  background-position: center;
+  padding-block: 35px;
+}
+/*header p {
+  margin-bottom: -10px;
+}*/
+header h1 {
+  font-size: 200%;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+header button {
+  background-color: #f04c2f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+  /*margin-block: 30px;*/
+  width: 130px;
+}
+
+#roundimg img {
+  border-radius: 50%;
+  max-width: 70%;
+  margin-bottom: 25px;
+}
+#redsection h2 {
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 180%;
+  color: white;
+  padding-block: 30px;
+  font-style: normal;
+}
+#redsection {
+  background-color: #e22d0e;
+  color: white;
+  font-style: italic;
+}
+#mario {
+  margin-bottom: 0;
+  padding-bottom: 35px;
+  font-style: normal;
+}
+section span {
+  font-size: 70%;
+  font-style: normal;
+}
+
+#incapsulamento {
+  max-width: 90%;
+  margin: auto;
+  margin-block: 30px;
+}
+
+#incapsulamento img {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#incapsulamento h3 {
+  padding: 10px;
+}
+
+#incapsulamento figcaption {
+  border: 1px solid #dee1e3;
+  border-top: 0px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding-block: 10px;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: white;
+}
+footer h2 {
+  color: white;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 180%;
+  padding-bottom: 15px;
+}
+footer a {
+  color: white;
+}
+hr {
+  color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  max-width: 40%;
+  margin-block: 25px;
+}
